@@ -12,6 +12,12 @@ class TransactionsWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor( element ) {
+    if (element === undefined) {
+      throw new Error ('передан пустой элемент');
+    } else {
+      this.element = element;
+      this.registerEvents();
+    }
 
   }
   /**
@@ -21,6 +27,12 @@ class TransactionsWidget {
    * экземпляра окна
    * */
   registerEvents() {
-
+    this.element.onclick = (e) => {
+      if (e.target.closest('.create-income-button')) {
+        App.getModal('newIncome').open();
+      } else if (e.target.closest('.create-expense-button')) {
+        App.getModal('newExpense').open();
+      } 
+    }
   }
 }

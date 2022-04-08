@@ -1,0 +1,473 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "password": "123",
+      "id": "3tnnmu9b0l0pm8mgn"
+    },
+    {
+      "name": "Олег",
+      "email": "oleg@demo.ru",
+      "password": "123",
+      "id": "3tnnmu9gcl0pmx0w1"
+    },
+    {
+      "name": "Андрей",
+      "email": "a@demo.ru",
+      "password": "123",
+      "id": "3tnnmu5icl0qya3gu"
+    },
+    {
+      "id": "3tnnmu24kl0qyw4xz"
+    },
+    {
+      "id": "3tnnmu5fol0qyx4xc"
+    },
+    {
+      "id": "3tnnmu6lgl0qyyf21"
+    },
+    {
+      "name": "Олег",
+      "id": "3tnnmu8g0l0qzbpsn"
+    },
+    {
+      "name": "Олег",
+      "id": "3tnnmu5rsl0qzc43o"
+    },
+    {
+      "name": "Олег",
+      "id": "3tnnmu760l0qzchtn"
+    },
+    {
+      "name": "и",
+      "email": "i@demo.ru",
+      "password": "123",
+      "id": "3tnnmu4ucl0tqppjf"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "Сбер",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "id": "3tnnmu450l0tphhcv"
+    },
+    {
+      "name": "Сбер1",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "id": "3tnnmu2asl0tqdtvq"
+    },
+    {
+      "name": "c,th",
+      "user_id": "3tnnmu4ucl0tqppjf",
+      "id": "3tnnmu6col0urdtmj"
+    },
+    {
+      "name": "111",
+      "user_id": "3tnnmu4ucl0tqppjf",
+      "id": "3tnnmu6agl0ure35w"
+    },
+    {
+      "name": "222",
+      "user_id": "3tnnmu4ucl0tqppjf",
+      "id": "3tnnmu7lol0uregtv"
+    },
+    {
+      "name": "333",
+      "user_id": "3tnnmu4ucl0tqppjf",
+      "id": "3tnnmu10kl0urf7ir"
+    },
+    {
+      "name": "сбер",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu6ckl0us1vqe"
+    },
+    {
+      "name": "сбер1",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu79cl0us35zf"
+    },
+    {
+      "name": "сбер2",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu69cl0us4wuj"
+    },
+    {
+      "name": "сбер3",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu7i0l0us5bwe"
+    },
+    {
+      "name": "сбер4",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu6hkl0useuuk"
+    },
+    {
+      "name": "сбер5",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmuasl0ushw1u"
+    },
+    {
+      "name": "сбер6",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu170l0utb71w"
+    },
+    {
+      "name": "сбер7",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu1f8l0utibe7"
+    },
+    {
+      "name": "сбер8",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu7akl0uyxv8y"
+    },
+    {
+      "name": "сбер9",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu3egl0uzctua"
+    },
+    {
+      "name": "сбер10",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "id": "3tnnmu6rgl0v0fjd3"
+    },
+    {
+      "name": "сбе2",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "id": "3tnnmu3ewl1hruewe"
+    },
+    {
+      "name": "c,th3",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "id": "3tnnmu7e8l1njkpwq"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "3tnnmu6zol0we3nbd",
+      "type": "income",
+      "name": "подарок",
+      "sum": 5000,
+      "account_id": "3tnnmu79cl0us35zf",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "created_at": "2022-03-18T12:20:48.456Z"
+    },
+    {
+      "id": "3tnnmu4nkl0we3v7h",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "created_at": "2022-03-18T12:20:58.684Z"
+    },
+    {
+      "id": "3tnnmu98gl0we4afi",
+      "type": "expense",
+      "name": "магаз",
+      "sum": 200,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "created_at": "2022-03-18T12:21:18.413Z"
+    },
+    {
+      "id": "3tnnmu7isl0we58zd",
+      "type": "expense",
+      "name": "магаз",
+      "sum": 200,
+      "account_id": "3tnnmu69cl0us4wuj",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "created_at": "2022-03-18T12:22:03.192Z"
+    },
+    {
+      "id": "3tnnmu1mgl10phzuh",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-03-21T12:50:58.360Z"
+    },
+    {
+      "id": "3tnnmu2tkl10pi576",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-03-21T12:51:05.297Z"
+    },
+    {
+      "id": "3tnnmu7kkl1hrpdw8",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:24:47.383Z"
+    },
+    {
+      "id": "3tnnmu4zsl1hrpp2v",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:25:01.878Z"
+    },
+    {
+      "id": "3tnnmu3z0l1hrpsml",
+      "type": "expense",
+      "name": "магаз",
+      "sum": 200,
+      "account_id": "3tnnmu6ckl0us1vqe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:25:06.476Z"
+    },
+    {
+      "id": "3tnnmu9tgl1hruiub",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu450l0tphhcv",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:28:47.075Z"
+    },
+    {
+      "id": "3tnnmu1bsl1hruomd",
+      "type": "income",
+      "name": "подарок",
+      "sum": 4000,
+      "account_id": "3tnnmu2asl0tqdtvq",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:28:54.564Z"
+    },
+    {
+      "id": "3tnnmu9iwl1hrv2dc",
+      "type": "income",
+      "name": "подарок",
+      "sum": 5000,
+      "account_id": "3tnnmu3ewl1hruewe",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:29:12.384Z"
+    },
+    {
+      "id": "3tnnmu980l1hrv6fm",
+      "type": "expense",
+      "name": "магаз",
+      "sum": 200,
+      "account_id": "3tnnmu450l0tphhcv",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:29:17.649Z"
+    },
+    {
+      "id": "3tnnmu8ekl1hskazm",
+      "type": "income",
+      "name": "подарок",
+      "sum": 100,
+      "account_id": "3tnnmu450l0tphhcv",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-02T11:48:49.953Z"
+    },
+    {
+      "id": "3tnnmu9ogl1jb3zrk",
+      "type": "income",
+      "name": "77",
+      "sum": 800,
+      "account_id": "3tnnmu6rgl0v0fjd3",
+      "user_id": "3tnnmu5icl0qya3gu",
+      "created_at": "2022-04-03T13:15:47.791Z"
+    },
+    {
+      "id": "3tnnmu9tkl1njlojy",
+      "type": "income",
+      "name": "подарок",
+      "sum": 2000,
+      "account_id": "3tnnmu450l0tphhcv",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-06T12:24:34.701Z"
+    },
+    {
+      "id": "3tnnmu5lwl1njm1k4",
+      "type": "income",
+      "name": "подарок",
+      "sum": 2000,
+      "account_id": "3tnnmu450l0tphhcv",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-06T12:24:51.555Z"
+    },
+    {
+      "id": "3tnnmu2ggl1njmatz",
+      "type": "income",
+      "name": "подарок",
+      "sum": 2000,
+      "account_id": "3tnnmu7e8l1njkpwq",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-06T12:25:03.574Z"
+    },
+    {
+      "id": "3tnnmu4scl1njmsil",
+      "type": "expense",
+      "name": "покупка",
+      "sum": 1000,
+      "account_id": "3tnnmu2asl0tqdtvq",
+      "user_id": "3tnnmu9gcl0pmx0w1",
+      "created_at": "2022-04-06T12:25:26.492Z"
+    }
+  ]
+}
