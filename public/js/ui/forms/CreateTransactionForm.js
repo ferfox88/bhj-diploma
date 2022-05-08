@@ -36,6 +36,7 @@ class CreateTransactionForm extends AsyncForm {
     Transaction.create(data, (err, response) => {
       if (response.success === true) {
         App.update();
+        this.element.reset();
         App.getModal('newIncome').close();
         App.getModal('newExpense').close();
       }

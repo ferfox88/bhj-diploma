@@ -3,7 +3,7 @@
  * страницей отображения доходов и
  * расходов конкретного счёта
  * */
-class TransactionsPage {
+ class TransactionsPage {
   /**
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
@@ -17,7 +17,6 @@ class TransactionsPage {
       this.element = element;
       this.registerEvents();
     }
-
   }
 
   /**
@@ -59,6 +58,7 @@ class TransactionsPage {
         Account.remove(data, (err, response) => {
           if (response.success) {
             App.update();
+            this.clear();
           }
         })
       }
@@ -75,7 +75,7 @@ class TransactionsPage {
     if (confirm('Вы действительно хотите удалить эту транзакцию?')) {
       const data = { id };
       Transaction.remove(data, (err, response) => {
-        if (response.success === true) {
+        if (response.success) {
           App.update();
         }
       })
@@ -94,9 +94,11 @@ class TransactionsPage {
       Account.get(options.account_id, (err, response) => {
         if (response.data) {
           this.renderTitle(response.data.name);
-          Transaction.list(options, (err, response) => {
-            this.renderTransactions(response.data);
-          })
+        }
+      })
+      Transaction.list(options, (err, response) => {
+        if (response.data) {
+          this.renderTransactions(response.data);
         }
       })
     }
@@ -117,7 +119,7 @@ class TransactionsPage {
    * Устанавливает заголовок в элемент .content-title
    * */
   renderTitle(name) {
-    const contentTitle = document.querySelector('.content-title');
+    const contentTitle = this.element.querySelector('.content-title');
     contentTitle.textContent = name;
 
   }
@@ -172,6 +174,7 @@ class TransactionsPage {
    * */
   renderTransactions(data) {
     const content = this.element.querySelector('.content');
+    content.innerHTML = '';
     for (let elem of data) {
       content.innerHTML += this.getTransactionHTML(elem);
     }

@@ -28,8 +28,8 @@ class Modal {
   registerEvents() {
     const dataDismiss = Array.from(this.element.querySelectorAll('[data-dismiss="modal"]'));
     dataDismiss.forEach(item => {
-      item.addEventListener('click', () => {
-        this.onClose();
+      item.addEventListener('click', (e) => {
+        this.onClose(e);
       })
     });
   }
@@ -39,6 +39,7 @@ class Modal {
    * Закрывает текущее окно (Modal.close())
    * */
   onClose(e) {
+    e.preventDefault();
     this.close();
   }
   /**
