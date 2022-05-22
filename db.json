@@ -102,64 +102,14 @@
       "id": "3tnnmu79cl0us35zf"
     },
     {
-      "name": "сбер2",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu69cl0us4wuj"
-    },
-    {
       "name": "сбер3",
       "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu7i0l0us5bwe"
+      "id": "3tnnmu6tcl3h9867j"
     },
     {
-      "name": "сбер4",
+      "name": "сбер2",
       "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu6hkl0useuuk"
-    },
-    {
-      "name": "сбер5",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmuasl0ushw1u"
-    },
-    {
-      "name": "сбер6",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu170l0utb71w"
-    },
-    {
-      "name": "сбер7",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu1f8l0utibe7"
-    },
-    {
-      "name": "сбер8",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu7akl0uyxv8y"
-    },
-    {
-      "name": "сбер9",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu3egl0uzctua"
-    },
-    {
-      "name": "сбер10",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "id": "3tnnmu6rgl0v0fjd3"
-    },
-    {
-      "name": "сбер44",
-      "user_id": "3tnnmu9gcl0pmx0w1",
-      "id": "3tnnmu46ol2ah2ipu"
-    },
-    {
-      "name": "сбер444",
-      "user_id": "3tnnmu9gcl0pmx0w1",
-      "id": "3tnnmu1ssl2ah8h3t"
-    },
-    {
-      "name": "сбер25",
-      "user_id": "3tnnmu9gcl0pmx0w1",
-      "id": "3tnnmu7xol2xfhpek"
+      "id": "3tnnmu60sl3h989zb"
     }
   ],
   "transactions": [
@@ -326,15 +276,6 @@
       "created_at": "2022-03-18T12:21:18.413Z"
     },
     {
-      "id": "3tnnmu7isl0we58zd",
-      "type": "expense",
-      "name": "магаз",
-      "sum": 200,
-      "account_id": "3tnnmu69cl0us4wuj",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "created_at": "2022-03-18T12:22:03.192Z"
-    },
-    {
       "id": "3tnnmu1mgl10phzuh",
       "type": "income",
       "name": "подарок",
@@ -387,15 +328,6 @@
       "account_id": "3tnnmu2asl0tqdtvq",
       "user_id": "3tnnmu9gcl0pmx0w1",
       "created_at": "2022-04-02T11:28:54.564Z"
-    },
-    {
-      "id": "3tnnmu9ogl1jb3zrk",
-      "type": "income",
-      "name": "77",
-      "sum": 800,
-      "account_id": "3tnnmu6rgl0v0fjd3",
-      "user_id": "3tnnmu5icl0qya3gu",
-      "created_at": "2022-04-03T13:15:47.791Z"
     },
     {
       "id": "3tnnmu6ucl2ah3628",
